@@ -140,7 +140,6 @@ def build_pipeline(seed: int = 0) -> Pipeline:
             "classifier",
             LogisticRegression(
                 C=1,
-                class_weight="balanced",
                 max_iter=2000,
                 random_state=seed,
             ),

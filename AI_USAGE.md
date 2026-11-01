@@ -3,7 +3,6 @@
 I used ChatGPT to help design the structure of add_history_features, time_split, and the preprocessing pipeline in build_pipeline. I also used it to understand the requirements, review edge cases, debug failing tests, and compare different machine learning models.
 
 ## AI-suggested code I rejected or fixed in add_history_features or time_split
-
 ChatGPT intially suggested Logistic Reegression as the model to be used. We then expreminted with three models, tuned their hyperparameters and compared their performance:
 
 | Model | ROC-AUC | PR-AUC | Brier Score |
